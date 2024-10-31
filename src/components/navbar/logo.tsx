@@ -5,8 +5,8 @@ import React from "react";
  */
 const NavBarLogo: React.FC = () => {
   return (
-    <div className="flex items-center">
-      <div className="text-primary text-4xl font-bold">C.E.</div>
+    <div className="w-20 h-20 bg-primary flex items-center justify-center cursor-pointer">
+      <div className="text-white text-4xl font-bold">C.E.</div>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
 interface NavbarToggleProps {
@@ -17,14 +16,16 @@ interface NavbarToggleProps {
  */
 const NavbarToggle: React.FC<NavbarToggleProps> = ({ navOpen, toggleNav }) => {
   return (
-    <div className="flex items-center space-x-4">
-      <div className="md:hidden cursor-pointer" onClick={toggleNav}>
-        <FontAwesomeIcon
-          icon={navOpen ? faTimes : faBars}
-          className="w-6 h-6 text-primary"
-        />
-      </div>
-    </div>
+    <button
+      className="w-12 h-12 bg-primary flex items-center justify-center cursor-pointer"
+      onClick={toggleNav}
+      aria-label="toggle-nav-menu"
+    >
+      <FontAwesomeIcon
+        icon={navOpen ? faTimes : faBars}
+        className="w-6 h-6 text-white"
+      />
+    </button>
   );
 };
 
