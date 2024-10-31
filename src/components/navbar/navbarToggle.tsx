@@ -17,7 +17,7 @@ interface NavbarToggleProps {
 const NavbarToggle: React.FC<NavbarToggleProps> = ({ navOpen, toggleNav }) => {
   return (
     <button
-      className="w-12 h-12 bg-primary flex items-center justify-center cursor-pointer"
+      className="md:hidden w-12 h-12 bg-primary flex items-center justify-center cursor-pointer"
       onClick={toggleNav}
       aria-label="toggle-nav-menu"
     >
