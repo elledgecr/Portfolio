@@ -1,15 +1,11 @@
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import SocialMediaIcon from "../../elements/socialMediaIcon"
 
 const HeroSocialMediaLinks: React.FC = () => {
     return <>
         <div className="flex space-x-4 text-primary mt-4">
-			<a href="https://www.linkedin.com/in/christian-elledge-b5b55628a/" target="_blank" rel="noopener noreferrer">
-				<FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 hover:text-accent transition duration-300" />
-			</a>
-			<a href="https://github.com/Cigatronix" target="_blank" rel="noopener noreferrer">
-				<FontAwesomeIcon icon={faGithub} className="w-6 h-6 hover:text-accent transition duration-300" />
-			</a>
+			<SocialMediaIcon icon={faLinkedin} href="https://www.linkedin.com/in/christian-elledge-b5b55628a/" />
+			<SocialMediaIcon icon={faGithub} href="https://github.com/Cigatronix" />
 		</div>
     </>
 }
