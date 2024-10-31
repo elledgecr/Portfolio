@@ -39,15 +39,17 @@ const Hero: React.FC = () => {
 				Software Engineering Student. Advocate of deep learning and keeping an open mind.
 			</p>
 
-			<div className="flex flex-col space-y-2 text-gray-400">
+			<div className="flex flex-col space-y-2 text-gray-400 mb-4">
 				<div className="flex items-center space-x-2">
 					<span className="font-semibold text-white">Phone:</span>
-					<span className="text-primary hover:text-accent transition duration-300">+1 (720)-839-3268</span>
+					<a href="tel:+17208393268" className="text-primary hover:text-accent transition duration-300">
+					+1 (720)-839-3268
+					</a>
 				</div>
 				<div className="flex items-center space-x-2">
-					<span className="font-semibold text-white">Email: </span>
+					<span className="font-semibold text-white">Email:</span>
 					<a href="mailto:elledgecre@outlook.com" className="text-primary hover:text-accent transition duration-300">
-						elledgecre@outlook.com
+					elledgecre@outlook.com
 					</a>
 				</div>
 			</div>
