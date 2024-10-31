@@ -7,6 +7,11 @@ interface SocialMediaIconProps {
   href: string;
 }
 
+/**
+ * @param icon - The icon to be displayed.
+ * @param href - The URL to which the icon will link.
+ * @returns A component for displaying a social media icon with a link.
+ */
 const SocialMediaIcon: React.FC<SocialMediaIconProps> = ({ icon, href }) => {
   return (
     <a
