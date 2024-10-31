@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.css'
-import Hero from './components/hero';
+import Hero from './components/hero/index';
 
 function App() {
   return <>
