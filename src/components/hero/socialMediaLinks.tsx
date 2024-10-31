@@ -1,3 +1,4 @@
+import React from "react";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import SocialMediaIcon from "../../elements/socialMediaIcon";
 

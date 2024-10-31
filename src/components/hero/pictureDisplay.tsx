@@ -1,3 +1,4 @@
+import React from "react";
 import MeImage from "../../assets/Me.png";
 
 const HeroPictureDisplay: React.FC = () => {

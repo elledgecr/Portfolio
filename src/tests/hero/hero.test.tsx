@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect"; // Import this to add matchers like toBeInTheDocument
 import Hero from "../../components/hero";
+import React from "react";
 
 test("renders hero section with name and job title", () => {
   render(<Hero />);

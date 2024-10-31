@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ContactItemProps {
   label: string;
   value: string;
