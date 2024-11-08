@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             data-testid="desktop-nav"
           >
             <NavbarIcon navOpen label="Home" href="#hero" />
-            <NavbarIcon navOpen label="About" href="#abut" />
+            <NavbarIcon navOpen label="About" href="#about" />
             <NavbarIcon navOpen label="Works" href="#works" />
             <NavbarIcon navOpen label="Journey" href="#journey" />
             <NavbarIcon navOpen label="Contact" href="#contact" />
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
             data-testid="mobile-nav"
           >
             <NavbarIcon navOpen label="Home" href="#hero" />
-            <NavbarIcon navOpen label="About" href="#abut" />
+            <NavbarIcon navOpen label="About" href="#about" />
             <NavbarIcon navOpen label="Works" href="#works" />
             <NavbarIcon navOpen label="Journey" href="#journey" />
             <NavbarIcon navOpen label="Contact" href="#contact" />
