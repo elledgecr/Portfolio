@@ -34,8 +34,10 @@ const Works: React.FC = () => {
       date: "October 28 2018 - January 12, 2024",
       description: [
         "Built and maintained various features and interfaces for various experiences using TypeScript and React.",
-        "Worked closely with the team to ensure the best possible user experience using data-driven solutions via PlayFab and other analytics software.",
+        "Worked closely with teams to ensure the best possible user experience by implenting data-driven solutions analyzed via PlayFab and other analytics software.",
         "Developed and maintained unit tests for various components and features.",
+        "Developed various middlewares to handle data processing and caching for game performance, including middlewares for redux actions.",
+        "Contributed to the development of numerous client-server architectures, including but not limited too event-driven architectures.",
         "Contributed to 50,000,000+ game visits, 300,000+ game favorites, and 180,000+ approval ratings across all experiences."
       ],
     },
@@ -47,7 +49,7 @@ const Works: React.FC = () => {
         "Provided training to over 20 employees in the Buffalo Wild Wings franchise.",
         "Ensured morning and night shifts were properly stocked and had clean equipment for each shift.",
         "Lead Grill Employee on deal nights (Tuesdays and Thursdays), due to near perfect order accuracy.",
-        "Closed the kitchen 3 nights a week, and worked 3 additional days from 2pm to 10pm (MST)."
+        "Closed the kitchen 2 nights a week and worked 3 additional days from 2pm to 10pm (MST)."
       ],
     },
   ];
