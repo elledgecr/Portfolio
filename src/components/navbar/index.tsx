@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import NavBarLogo from "./logo";
 import NavbarIcon from "./navbarIcon";
 import NavbarToggle from "./navbarToggle";
 
@@ -15,10 +14,8 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-darkOne text-white px-8 py-4 fixed w-full top-0 z-50">
+      <nav className="bg-darkOne text-white px-8 py-4 fixed w-full top-5 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between relative">
-          <NavBarLogo />
-
           <div
             className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 space-x-8 text-lg"
             data-testid="desktop-nav"
