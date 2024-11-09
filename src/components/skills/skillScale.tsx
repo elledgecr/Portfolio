@@ -1,10 +1,10 @@
 import React from "react";
 
 interface SkillScaleProps {
-    index: number;
-    percentage: number;
-    name: string;
-    active: boolean;
+  index: number;
+  percentage: number;
+  name: string;
+  active: boolean;
 }
 
 /**

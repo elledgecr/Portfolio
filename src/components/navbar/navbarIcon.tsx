@@ -17,7 +17,10 @@ interface NavbarIconProps {
 const NavbarIcon: React.FC<NavbarIconProps> = (props) => {
   if (!props.navOpen) {
     return (
-      <a href={props.href} className="hover:text-primary transition duration-300">
+      <a
+        href={props.href}
+        className="hover:text-primary transition duration-300"
+      >
         {props.label}
       </a>
     );

@@ -6,6 +6,9 @@ import {
   SiPython,
   SiLua,
   SiTailwindcss,
+  SiMysql,
+  SiPostgresql,
+  SiExpress,
 } from "react-icons/si";
 import {
   faReact,
@@ -54,15 +57,33 @@ const initialSkillData: Array<SkillData> = [
     active: false,
   },
   {
+    name: "Tailwind",
+    icon: SiTailwindcss,
+    percentage: 70,
+    active: false,
+  },
+  {
     name: "Node.JS",
     icon: faNodeJs,
     percentage: 80,
     active: false,
   },
   {
-    name: "Tailwind",
-    icon: SiTailwindcss,
+    name: "Express JS",
+    icon: SiExpress,
     percentage: 70,
+    active: false,
+  },
+  {
+    name: "MySQL",
+    icon: SiMysql,
+    percentage: 60,
+    active: false,
+  },
+  {
+    name: "PostgreSQL",
+    icon: SiPostgresql,
+    percentage: 50,
     active: false,
   },
 ];

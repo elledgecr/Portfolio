@@ -32,7 +32,7 @@ const SkillButton: React.FC<SkillButtonProps> = (props) => {
         <FontAwesomeIcon
           icon={props.icon}
           className={`text-5xl ${
-            props.active? "text-accent" : "text-gray-400"
+            props.active ? "text-accent" : "text-gray-400"
           }`}
         />
       );
