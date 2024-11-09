@@ -3,6 +3,7 @@ import "./styles/App.css";
 import Hero from "./components/hero/index";
 import Navbar from "./components/navbar";
 import Works from "./components/works";
+import SkillsSection from "./components/skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Works />
+      <SkillsSection />
     </>
   );
 }

@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * @returns A set of elements that provide description for the hero section.
+ */
 const HeroDescriptor: React.FC = () => {
   return (
     <>
