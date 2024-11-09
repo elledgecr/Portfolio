@@ -123,7 +123,7 @@ const SkillsSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-wrap justify-center space-x-6 space-y-6">
+        <div className="w-full md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <SkillButton
               key={index}
