@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import WorksSection from "./components/works";
 import SkillsSection from "./components/skills";
 import ProjectsSection from "./components/projects";
+import ContactForm from "./components/contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WorksSection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactForm />
     </>
   );
 }
