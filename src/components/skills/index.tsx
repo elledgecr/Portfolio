@@ -9,18 +9,15 @@ import {
   SiMysql,
   SiPostgresql,
   SiExpress,
+  SiReact,
+  SiNodedotjs,
 } from "react-icons/si";
-import {
-  faReact,
-  faNodeJs,
-  IconDefinition,
-} from "@fortawesome/free-brands-svg-icons";
 import SkillScale from "./skillScale";
 import SkillButton from "./skillButton";
 
 interface SkillData {
   name: string;
-  icon: IconDefinition | IconType;
+  icon: IconType;
   percentage: number;
   active: boolean;
 }
@@ -52,7 +49,7 @@ const initialSkillData: Array<SkillData> = [
   },
   {
     name: "React JS",
-    icon: faReact,
+    icon: SiReact,
     percentage: 90,
     active: false,
   },
@@ -64,7 +61,7 @@ const initialSkillData: Array<SkillData> = [
   },
   {
     name: "Node.JS",
-    icon: faNodeJs,
+    icon: SiNodedotjs,
     percentage: 80,
     active: false,
   },
@@ -123,7 +120,7 @@ const SkillsSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="w-full md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="w-full md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <SkillButton
               key={index}
