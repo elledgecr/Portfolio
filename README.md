@@ -9,6 +9,5 @@ A personal portfolio website built with TypeScript, React, and APIs to demonstra
 ## Technologies Used
 - **React** (with TypeScript)
 - **Tailwind CSS** (Styled Components)
-- **React Router** (navigation)
 - **Axious** (API calls)
 - **React Helmet** (SEO)
