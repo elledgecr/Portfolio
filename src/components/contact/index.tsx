@@ -1,10 +1,17 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
+/**
+ * @returns A component that renders a contact form. Using emailjs, anyone can email me using this form.
+ */
 const ContactForm: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);
   const [statusMessage, setStatusMessage] = useState<{ type: string; text: string } | null>(null);
 
+  /**
+   * Sends an email using input values stored in the form ref, using the emailjs library.
+   * @param e The React Form Event Object.
+   */
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
