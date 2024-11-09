@@ -10,19 +10,19 @@ interface NavbarToggleProps {
 /**
  * A component for toggling the navigation menu (mobile).
  *
- * @param navOpen - The current state of the navigation menu.
- * @param toggleNav - A function to toggle the navigation menu.
+ * @param {boolean} props.navOpen - The current state of the navigation menu.
+ * @param {function} props.toggleNav - A function to toggle the navigation menu.
  * @returns A toggle button for the navigation menu.
  */
-const NavbarToggle: React.FC<NavbarToggleProps> = ({ navOpen, toggleNav }) => {
+const NavbarToggle: React.FC<NavbarToggleProps> = (props) => {
   return (
     <button
       className="md:hidden w-12 h-12 bg-primary flex items-center justify-center cursor-pointer"
-      onClick={toggleNav}
+      onClick={props.toggleNav}
       aria-label="toggle-nav-menu"
     >
       <FontAwesomeIcon
-        icon={navOpen ? faTimes : faBars}
+        icon={props.navOpen ? faTimes : faBars}
         className="w-6 h-6 text-white"
       />
     </button>

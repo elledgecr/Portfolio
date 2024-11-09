@@ -2,6 +2,9 @@ import React from "react";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import SocialMediaIcon from "../../elements/socialMediaIcon";
 
+/**
+ * @returns A set of elements that display social media icons for the hero section.
+ */
 const HeroSocialMediaLinks: React.FC = () => {
   return (
     <>
