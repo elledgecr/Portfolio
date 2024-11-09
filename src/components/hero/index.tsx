@@ -4,7 +4,7 @@ import HeroSocialMediaLinks from "./socialMediaLinks";
 import HeroContactItem from "./contactItem";
 import HeroDescriptor from "./heroDescriptor";
 
-const Hero: React.FC = () => {
+const HeroSection: React.FC = () => {
   return (
     <section
       id="hero"
@@ -35,4 +35,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

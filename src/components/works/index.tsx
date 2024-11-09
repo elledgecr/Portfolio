@@ -53,7 +53,7 @@ const works: Array<WorkExperienceListing> = [
 /**
  * @returns The section of the page describing my work experience.
  */
-const Works: React.FC = () => {
+const WorksSection: React.FC = () => {
   return (
     <section id="about" className="bg-darkTwo text-white py-20 px-8">
       <h2 className="text-4xl font-bold text-center mb-12">Work Experience</h2>
@@ -89,6 +89,7 @@ const Works: React.FC = () => {
             </div>
           </SwiperSlide>
         ))}
+        <div className="custom-pagination flex justify-center mt-10"></div>
       </Swiper>
 
       <style>{`
@@ -99,7 +100,7 @@ const Works: React.FC = () => {
 
         .swiper-button-prev:hover,
         .swiper-button-next:hover {
-          color: #03fdbb;
+          color: #5DE2E7;
         }
 
         .swiper-pagination-bullet {
@@ -119,4 +120,4 @@ const Works: React.FC = () => {
   );
 };
 
-export default Works;
+export default WorksSection;
