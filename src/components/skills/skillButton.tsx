@@ -22,10 +22,10 @@ const SkillButton: React.FC<SkillButtonProps> = (props) => {
   return (
     <button
       key={props.index}
-      className={`flex flex-col items-center scale-95 p-6 md:w-36 md:h-36 rounded-lg transition-all duration-300 ${
+      className={`flex flex-col items-center scale-100 justify-center p-4 w-32 h-32 md:w-36 md:h-36 rounded-lg transition-all duration-300 ${
         props.active
-          ? "bg-primary shadow-lg"
-          : "bg-gray-800 hover:scale-105"
+          ? "bg-primary scale-110 shadow-lg"
+          : "bg-darkTwo hover:scale-110"
       }`}
       onClick={() => props.setActive(props.name)}
     >
