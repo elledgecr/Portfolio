@@ -22,7 +22,7 @@ const NavbarToggle: React.FC<NavbarToggleProps> = (props) => {
       aria-label="toggle-nav-menu"
     >
       <FontAwesomeIcon
-        icon={props.navOpen ? faTimes : faBars}
+        icon={props.navOpen ? faBars : faTimes}
         className="w-6 h-6 text-white"
       />
     </button>
