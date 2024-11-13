@@ -9,4 +9,3 @@ A personal portfolio website built with TypeScript, React, and APIs to demonstra
 ## Technologies Used
 - **React** (with TypeScript)
 - **Tailwind CSS** (Styled Components)
-- **Axious** (API calls)
