@@ -1,5 +1,5 @@
 ## Portfolio
-A personal portfolio website built with TypeScript, React, and APIs to demonstrate my work as a software developer.
+A personal portfolio website built with TypeScript and React to demonstrate my front-end skills as a software developer.
 
 ## Features
 - Project showcase with GitHub repository links.
