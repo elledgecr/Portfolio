@@ -62,7 +62,12 @@ const WorksSection: React.FC = () => {
         modules={[Navigation, Pagination, EffectCoverflow]}
         effect="coverflow"
         centeredSlides={true}
-        slidesPerView={2}
+        slidesPerView={"auto"}
+        breakpoints={{
+          640: { slidesPerView: 1 }, // Mobile
+          768: { slidesPerView: 1.5 }, // Tablets
+          1024: { slidesPerView: 2 }, // Desktop
+        }}
         coverflowEffect={{
           rotate: 0,
           stretch: 50,
@@ -76,12 +81,18 @@ const WorksSection: React.FC = () => {
         className="max-w-5xl mx-auto"
       >
         {works.map((work, index) => (
-          <SwiperSlide key={index}>
-            <div className="bg-darkOne p-8 rounded-lg shadow-lg mx-auto">
-              <h3 className="text-2xl font-bold mb-2">{work.title}</h3>
-              <p className="text-lg font-semibold mb-2">{work.company}</p>
-              <p className="text-sm text-gray-400 mb-6">{work.date}</p>
-              <ul className="list-disc list-inside space-y-2 text-gray-300">
+          <SwiperSlide key={index} className="w-full md:w-[400px] lg:w-[450px]">
+            <div className="bg-darkOne p-6 rounded-lg shadow-lg mx-auto">
+              <h3 className="text-xl md:text-2xl font-bold mb-2">
+                {work.title}
+              </h3>
+              <p className="text-base md:text-lg font-semibold mb-2">
+                {work.company}
+              </p>
+              <p className="text-xs md:text-sm text-gray-400 mb-6">
+                {work.date}
+              </p>
+              <ul className="list-disc list-inside space-y-1 md:space-y-2 text-gray-300 leading-tight md:leading-normal">
                 {work.description.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}

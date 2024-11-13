@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import NavbarIcon from "./navbarIcon";
-import NavbarToggle from "./navbarToggle";
 
 /**
  * @returns A Navigation Bar component.
  */
 const Navbar: React.FC = () => {
-  const [navOpen, setNavOpen] = useState(false);
-
-  const toggleNav = () => {
-    setNavOpen(!navOpen);
-  };
-
   return (
     <>
       <nav className=" text-white px-8 py-4 fixed w-full top-5 z-50">
@@ -26,22 +19,7 @@ const Navbar: React.FC = () => {
             <NavbarIcon navOpen label="Projects" href="#projects" />
             <NavbarIcon navOpen label="Contact" href="#contact" />
           </div>
-
-          <NavbarToggle navOpen toggleNav={toggleNav} />
         </div>
-
-        {navOpen && (
-          <div
-            className="md:hidden mt-4  px-8 py-4 space-y-4"
-            data-testid="mobile-nav"
-          >
-            <NavbarIcon navOpen label="Home" href="#hero" />
-            <NavbarIcon navOpen label="About" href="#about" />
-            <NavbarIcon navOpen label="Skills" href="#skills" />
-            <NavbarIcon navOpen label="Projects" href="#projects" />
-            <NavbarIcon navOpen label="Contact" href="#contact" />
-          </div>
-        )}
       </nav>
     </>
   );
