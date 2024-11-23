@@ -20,11 +20,6 @@ const HeroSection: React.FC = () => {
 
         <div className="flex flex-col space-y-2 text-gray-400 mb-4">
           <HeroContactItem
-            label="Phone"
-            value="+1 (720)-839-3268"
-            href="tel:+17208393268"
-          />
-          <HeroContactItem
             label="Email"
             value="elledgecre@outlook.com"
             href="mailto:elledgecre@outlook.com"
