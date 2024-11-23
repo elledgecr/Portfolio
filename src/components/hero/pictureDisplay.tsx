@@ -1,5 +1,5 @@
 import React from "react";
-import MeImage from "../../assets/Me.png";
+import MeImage from "../../assets/Headshot.png";
 
 /**
  * @returns A component that displays the profile picture for the hero section.
