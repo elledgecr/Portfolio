@@ -15,39 +15,41 @@ interface WorkExperienceListing {
 
 const works: Array<WorkExperienceListing> = [
   {
-    title: "Software Engineering Prompt Engineer",
-    company: "Outlier AI",
+    title: "Software Engineer | Prompt Engineer",
+    company: "Scale AI",
     date: "October 5, 2024 - PRESENT",
     description: [
-      "Improved various models thinking capabilities and utilizations in end-to-end oversight projects using mock APIs, Python, and JavaScript.",
-      "Worked closely with team members to improve data analysis and provide actionable insights.",
-      "Engineered methodical prompts to outsmart SOTA (State of The Art) models, identifying and correcting failures.",
+      "Engineered hundreds of precise and c reative prompts to improve STOA (State of the Art) AI models, enhancing response accuracy and data integrity.",
+      "Reviewed and refined peer-generated prompts to ensure alignment with company standards and maintain high-quality data models.",
+      "Collaborated with global, cross-functional teams to implement AI-driven solutions, leveraging JavaScript, Python, and industry-leading libraries.",
+      "Utilized continuous feedback loops to refine prompt strategies, resulting in measurable improvement to model performance.",
     ],
   },
   {
-    title: "Front-End Developer",
-    company: "Self Contract | Roblox",
-    date: "October 28 2018 - January 12, 2024",
-    description: [
-      "Built and maintained various features and interfaces for various experiences using TypeScript and React.",
-      "Worked closely with teams to ensure the best possible user experience by implenting data-driven solutions analyzed via PlayFab and other analytics software.",
-      "Developed and maintained unit tests for various components and features.",
-      "Developed various middlewares to handle data processing and caching for game performance, including middlewares for redux actions.",
-      "Contributed to the development of numerous client-server architectures, including but not limited too event-driven architectures.",
-      "Contributed to 50,000,000+ game visits, 300,000+ game favorites, and 180,000+ approval ratings across all experiences.",
-    ],
-  },
-  {
-    title: "Wing Certified Trainer",
+    title: "Shift Manager",
     company: "Buffalo Wild Wings",
     date: "March 6, 2022 - PRESENT",
     description: [
-      "Provided training to over 20 employees in the Buffalo Wild Wings franchise.",
-      "Ensured morning and night shifts were properly stocked and had clean equipment for each shift.",
-      "Lead Grill Employee on deal nights (Tuesdays and Thursdays), due to near perfect order accuracy.",
-      "Closed the kitchen 2 nights a week and worked 3 additional days from 2pm to 10pm (MST).",
+      "In charge of over 15 employees across different departments on my shifts, overseeing daily operations, inventory management, and labor hour allocations to maintain staffing levels.",
+      "Conducted first-round interviews for potential hires, providing input on staffing decisions.",
+      "Mentored new employees on safety, cleanliness, and brand standards, contributing to a consistent guest experience.",
+      "Ensured morning and night shifts were properly equipped with the stock and clean equipment necessary for each shift, at minimum 4 days a week.",
+      "Both closed and opened store kitchens, maintaining cleanliness and ticket times throughout each shift, ensuring food quality and guest experience."
     ],
   },
+  {
+    title: "Game Developer",
+    company: "Self Contract | Roblox",
+    date: "October 28, 2018 - January 12, 2024",
+    description: [
+      "Developed and maintained features and user interfaces using TypeScript and React to enhance gameplay experiences.",
+      "Collaborated with teams to integrate data-driven solutions using PlayFab and analytics tools, optimizing user experience and game performance.",
+      "Implemented comprehensive unit tests to ensure the reliability and quality of game components.",
+      "Designed middleware for data processing and caching, improving performance and responsiveness of client-server interactions.",
+      "Contributed to the design and development of scalable, event-driven client-server architectures.",
+      "Supported the overall success of multiple experiences, contributing to significant user engagement metrics."
+    ],
+  }  
 ];
 
 /**
