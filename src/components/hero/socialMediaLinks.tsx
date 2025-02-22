@@ -13,7 +13,7 @@ const HeroSocialMediaLinks: React.FC = () => {
           icon={faLinkedin}
           href="https://www.linkedin.com/in/christian-elledge-b5b55628a/"
         />
-        <SocialMediaIcon icon={faGithub} href="https://github.com/Cigatronix" />
+        <SocialMediaIcon icon={faGithub} href="https://github.com/elledgecr" />
       </div>
     </>
   );
