@@ -15,39 +15,41 @@ interface WorkExperienceListing {
 
 const works: Array<WorkExperienceListing> = [
   {
+    title: "Shift Manager",
+    company: "Buffalo Wild Wings",
+    date: "March 6, 2022 - PRESENT",
+    description: [
+      "Led over 15 employees across different departments, overseeing daily operations, inventory management, and labor hour allocations to maintain staffing levels.",
+      "Ran daily server/bartender and cash drawer checkouts, completed daily safe counts, and ensured smooth shifts.",
+      "Conducted first-round interviews for potential hires, providing input on staffing decisions.",
+      "Trained numerous newly hired employees over 2 years on safety, company core values, guest service, cleanliness, teamwork,communication, and the roles those things play during a shift.",
+      "Ensured morning and night shifts were properly equipped with the stock and clean equipment necessary for each shift, at minimum 4 days a week.",
+      "Both closed and opened store kitchens, maintaining cleanliness and ticket times throughout each shift, ensuring food quality and guest experience.",
+    ],
+  },
+  {
     title: "Software Engineer | Prompt Engineer",
     company: "Scale AI",
-    date: "October 5, 2024 - PRESENT",
+    date: "October 5, 2024 - March 6th, 2025",
     description: [
-      "Engineered hundreds of precise and c reative prompts to improve STOA (State of the Art) AI models, enhancing response accuracy and data integrity.",
+      "Engineered hundreds of precise and creative prompts to improve SOTA (State of the Art) AI models, enhancing response accuracy and data integrity.",
       "Reviewed and refined peer-generated prompts to ensure alignment with company standards and maintain high-quality data models.",
       "Collaborated with global, cross-functional teams to implement AI-driven solutions, leveraging JavaScript, Python, and industry-leading libraries.",
       "Utilized continuous feedback loops to refine prompt strategies, resulting in measurable improvement to model performance.",
     ],
   },
   {
-    title: "Shift Manager",
-    company: "Buffalo Wild Wings",
-    date: "March 6, 2022 - PRESENT",
-    description: [
-      "In charge of over 15 employees across different departments on my shifts, overseeing daily operations, inventory management, and labor hour allocations to maintain staffing levels.",
-      "Conducted first-round interviews for potential hires, providing input on staffing decisions.",
-      "Mentored new employees on safety, cleanliness, and brand standards, contributing to a consistent guest experience.",
-      "Ensured morning and night shifts were properly equipped with the stock and clean equipment necessary for each shift, at minimum 4 days a week.",
-      "Both closed and opened store kitchens, maintaining cleanliness and ticket times throughout each shift, ensuring food quality and guest experience."
-    ],
-  },
-  {
-    title: "Game Developer",
-    company: "Self Contract | Roblox",
+    title: "Full Stack Developer",
+    company: "Interbyte Studios | Contract",
     date: "October 28, 2018 - January 12, 2024",
     description: [
-      "Developed and maintained features and user interfaces using TypeScript and React to enhance gameplay experiences.",
-      "Collaborated with teams to integrate data-driven solutions using PlayFab and analytics tools, optimizing user experience and game performance.",
-      "Implemented comprehensive unit tests to ensure the reliability and quality of game components.",
-      "Designed middleware for data processing and caching, improving performance and responsiveness of client-server interactions.",
-      "Contributed to the design and development of scalable, event-driven client-server architectures.",
-      "Supported the overall success of multiple experiences, contributing to significant user engagement metrics."
+      "Operated within a CI/CD workflow using unit and integration testing, development, testing, and production environments.",
+      "Managed team workflow via GitHub for version control.",
+      "Developed projects entirely in TypeScript for scalability and readability, utilized React to foster a fast and responsive frontend.",
+      "Oversaw project timelines, ensuring timely delivery and consistency in quality, contributing to over 50,000 lines of peer-reviewed code.",
+      "Evaluated user feedback to refine interfaces, leading to enhanced user satisfaction and performance improvements across multiple projects.",
+      "Developed and implemented unique UI designs, balancing aesthetic appeal with functionality to elevate the overall user experience.",
+      "Engaged in constant learning and adaptation of new technologies, enhancing skills in TypeScript, Rust, and PostgreSQL for project success."
     ],
   }  
 ];
