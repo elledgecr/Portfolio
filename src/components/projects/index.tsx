@@ -32,6 +32,7 @@ const projects: Project[] = [
       "Implemented features such as item trading, leveling, unlocking new items, exploration of new items and areas, item inventory, item index, item tracking, item fusing, etc.",
       "Developed entirely in Lua.",
       "Engaged a community of thousands of users.",
+      "Developed under a CI/CD workflow with unit and integration testing and automatic deployment to development and QA environments.",
     ],
   },
   {
@@ -49,7 +50,7 @@ const projects: Project[] = [
       "Built a complex trading system that enabled players to trade items safely.",
       "Implemented a player feedback system, using PlayFab analytics to refine game mechanics.",
       "Created a rebirthing experience for players, adding new challenges and content to keep them engaged.",
-      "Managed via a CI/CD pipeline to automate testing.",
+      "Developed under a CI/CD workflow with unit and integration testing and automatic deployment to development and QA environments.",
     ],
   },
   {
@@ -70,9 +71,9 @@ const projects: Project[] = [
       "Developed entirely with TypeScript and Luau.",
       `Global Trading "Raptor" system developed in TypeScript, hosted on a secure Ubuntu server, handled many thousands of connections, and handled hundreds of trades per day.`,
       "Over 50,000 lines of code, fully documented via JSDoc.",
-      "Managed via a CI/CD pipeline (ESlint scripts, unit tests) to automate testing.",
       "Bolsters various custom middlewares to improve server-side security during API calls, as well as middlewares to verify the integrity of actions being dispatched to player data stores.",
       "Grew the Interbyte brand exponentially - Nearly 800,000 group members and thousands of subscribers across social media platforms/networks.",
+      "Developed under a CI/CD workflow with unit and integration testing and automatic deployment to development and QA environments.",
     ],
   },
   {
@@ -89,9 +90,9 @@ const projects: Project[] = [
       "Developed new community-driven events and achievements to keep the player base engaged.",
       "Integrated advanced graphics and animation techniques to create a more visually appealing experience.",
       "Over 25,000 lines of code, fully documented via JSDoc.",
-      "Managed via a CI/CD pipeline (ESlint scripts, unit tests) to automate testing.",
       "Bolsters various custom middlewares to improve server-side security during API calls, as well as middlewares to verify the integrity of actions being dispatched to player data stores.",
       "Grew the Interbyte brand exponentially - Nearly 1 million group members and tens of thousands across social media platforms/networks.",
+      "Developed under a CI/CD workflow with unit and integration testing and automatic deployment to development and QA environments.",
     ],
   },
 ];
